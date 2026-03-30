@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishu Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+</head>
+
+<body>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/917970951439" target="_blank" class="whatsapp-btn">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+</a>
+
+<!-- NAVBAR -->
+<nav class="navbar glass">
+
+    <div class="logo">
+        <img src="logo.jpeg" alt="Logo">
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#" id="nav-home">Home</a></li>
+        <li><a href="#services" id="nav-services">Services</a></li>
+        <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+
+    <!-- LANGUAGE TOGGLE -->
+    <div class="lang-toggle">
+        <span>EN</span>
+        <label class="switch">
+            <input type="checkbox" id="langSwitch" onchange="toggleLanguage()">
+            <span class="slider"></span>
+        </label>
+        <span>हिंदी</span>
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+    <div class="slider">
+        <img src="ad.jpg" class="slide active">
+        <img src="ad1.webp" class="slide">
+        <img src="ad2.avif" class="slide">
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="hero-text glass fade-in">
+        <h1 id="title">Rishu Video Movie & Photography</h1>
+        <p id="tagline">4K Videography | Wedding Shoot | Cinematic Videos</p>
+        <button id="book-btn" onclick="showAlert()">Book Now</button>
+    </div>
+
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services fade-in">
+    <h2 id="services-title">Our Services</h2>
+
+    <div class="service-box">
+
+        <div class="service-left">
+            <div class="card glass" id="s1">📹 Pre-Wedding Shoot</div>
+            <div class="card glass" id="s2">🎥 4K Videography</div>
+            <div class="card glass" id="s3">📷 Photography</div>
+            <div class="card glass" id="s8">🎞️ Cinematic Reel Shoot</div>
+        </div>
+
+        <div class="service-right">
+            <div class="card glass" id="s5">🎬 Cinematic Video</div>
+            <div class="card glass" id="s6">🖼️ Photo Editing</div>
+            <div class="card glass" id="s7">🎉 Event Coverage</div>
+            
+        </div>
+
+    </div>
+</section>
+
+<!-- FAQs -->
+<section class="faq fade-in">
+    <h2 id="faq-title">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <button class="faq-question" id="q1">What is your wedding package price?</button>
+        <div class="faq-answer" id="a1">Our packages start from ₹10,000 depending on requirements.</div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question" id="q2">Do you provide pre-wedding shoot?</button>
+        <div class="faq-answer" id="a2">Yes, we provide cinematic pre-wedding shoots.</div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question" id="q3">How long does delivery take?</button>
+        <div class="faq-answer" id="a3">Usually 7–15 days after the event.</div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question" id="q4">Do you travel outside city?</button>
+        <div class="faq-answer" id="a4">Yes, travel charges may apply.</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact glass fade-in">
+    <h2 id="contact-title">Contact Us</h2>
+    <p id="owner">Pro. : Gautam Raj "Govind"</p>
+    <p id="phone">📞 7970951439 | 9877262835</p>
+    <p id="address">📍 Dulaar, Singheshwar, Madhepura</p>
+</section>
+
+<footer>
+    <p id="footer-text">© 2026 Rishu Photography</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
