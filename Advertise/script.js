@@ -64,6 +64,7 @@ function applyHindi() {
 
     document.getElementById("contact-title").innerText = "संपर्क करें";
     document.getElementById("owner").innerText = "प्रो.: गौतम राज 'गोविंद'";
+    //document.getElementById("insta-btn").innerText = " इंस्टाग्राम ";
     document.getElementById("phone").innerText = "📞 7970951439 | 9877262835";
     document.getElementById("address").innerText = "📍 दुलार, सिंहेश्वर, मधेपुरा";
 
@@ -85,7 +86,7 @@ function applyEnglish() {
     document.getElementById("s1").innerText = "📹 Pre-Wedding Shoot";
     document.getElementById("s2").innerText = "🎥 4K Videography";
     document.getElementById("s3").innerText = "📷 Photography";
-    document.getElementById("s4").innerText = "Cinematic Reel Shoot";
+    document.getElementById("s4").innerText = "🎞️ Cinematic Reel Shoot";
     document.getElementById("s5").innerText = "🎬 Cinematic Video";
     document.getElementById("s6").innerText = "🖼️ Photo Editing";
     document.getElementById("s7").innerText = "🎉 Event Coverage";
@@ -106,8 +107,9 @@ function applyEnglish() {
 
     document.getElementById("contact-title").innerText = "Contact Us";
     document.getElementById("owner").innerText = "Pro. : Gautam Raj 'Govind'";
+    //document.getElementById("insta-btn").innerText = " Instagram ";
     document.getElementById("phone").innerText = "📞 7970951439 | 9877262835";
-    document.getElementById("address").innerText = "📍 Dulaar, Singheshwar, Madhepura";
+    document.getElementById("address").innerText = "📍 Dular, Singheshwar, Madhepura";
 
     document.getElementById("footer-text").innerText = "© 2026 Rishu Photography";
 }
